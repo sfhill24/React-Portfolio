@@ -1,39 +1,47 @@
 import React, { useState } from "react";
-import Navigation from './components/Header/Navigation';
+import Navigation from './components/Navigation';
+import About from "./components/About";
 import Header from './components/Header';
-//import Project from './components/Project';
+import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
+import ContactForm from "./components/Contact";
+import Resume from "./components/Resume";
+import { Routes, Route, Navigate } from "react-router-dom";
+
 
 function App() {
 
-  const [categories] = useState([
-    {
-      name: "portfolio",
-      description: "A list of my projects with photos and links"
-    },
-    {
-      name: "resume",
-      description: "View and download my resume"
-    }
-  ]);
-
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [contactSelected, setContactSelected] = useState(false);
+  const [headerSelected, setHeaderSelected] = useState("");
 
   return (
     <div>
-      <Navigation>
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-      </Navigation>
+      <Navigation
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+        setHeaderSelected={setHeaderSelected}
+      ></Navigation>
       <main>
-        <Header></Header>
+        <Header
+          headerSelected={headerSelected}
+        ></Header>
+        {!contactSelected ? (
+          <>
+            <Routes>
+              <Route path="/" element={<Navigate to="/about" />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/resume" element={<Resume />} />
+            </Routes>
+          </>
+        ) : (
+          <ContactForm></ContactForm>
+        )}
       </main>
       <Footer></Footer>
     </div>
   );
 }
-
 
 
 export default App;

@@ -87,9 +87,6 @@ a {
   font-weight: bold;
 }
 
-a:hover {
-  text-decoration: underline;
-}
 
 header {
   background: var(--dark);
@@ -120,9 +117,7 @@ button[disabled] {
   opacity: .8;
 }
 
-img {
-  max-width: 100%;
-}
+
 
 span[role="img"] {
   cursor: default;
@@ -151,7 +146,7 @@ li {
 }
 
 nav a:hover {
-  text-decoration: none;
+  color: #39a6b2;
 }
 
 nav  li {
@@ -201,13 +196,13 @@ textarea {
 }
 
 .my-2 {
-  margin-top: var(--spacing-two);
-  margin-bottom: var(--spacing-two);
+  margin-top: var(--spacing-one);
+  margin-bottom: var(--spacing-one);
 }
 
 .my-5 {
-  margin-top: var(--spacing-five);
-  margin-bottom: var(--spacing-five);
+  margin-top: var(--spacing-one);
+  margin-bottom: 30%;
 }
 
 .px-1 {
@@ -236,36 +231,26 @@ textarea {
 }
 
 .img-thumbnail {
-  width: auto;
+  width: 500px;
   height: 300px;
   margin-bottom: 50px;
   cursor: pointer;
 }
 
-.modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
+section:hover .img-thumbnail {
+  opacity: 0.3;
 }
 
-.modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
+.projectInfo {
+  transition: .5s ease;
+  position: relative;
+  opacity: 0;
+  bottom: 50%;
+  text-align: center;
 }
 
-.modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
+section:hover .projectInfo {
+  opacity: 1;
 }
 
 button {
@@ -292,4 +277,40 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+a:hover {
+  color: #39a6b2;
+}
+
+.img {
+  margin-top: 0px;
+  margin-bottom: 200px;
+  border-bottom-width: 200px; 
+  padding-bottom: 25px;
+  position: relative;
+  margin-bottom: 0px;
+  height: 650px;
+  width:400px
+}
+
+.photoDiv {
+    padding-left: 0px;
+    border-left-width: 0px;
+    padding-bottom: 0px;
+    height: 250px;
+    align-items: center;
+    display: flex;
+    padding-top: 0%;
+  
+}
+
+.headerText {
+  padding-bottom: 50px;
+  font-size: larger;
 }
