@@ -28,7 +28,7 @@ function App() {
         {!contactSelected ? (
           <>
             <Routes>
-              <Route path="React-Portfolio/" element={<Navigate to="/about" />} />
+              <Route path="/React-Portfolio/" element={<Navigate to="/about" />} />
               <Route path="/" element={<Navigate to="/about" />} />
               <Route path="/about" element={<About />} />
               <Route path="/portfolio" element={<Portfolio />} />
