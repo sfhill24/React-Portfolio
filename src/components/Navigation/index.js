@@ -13,7 +13,7 @@ function Navigation(props) {
     return (
         <header className="flex-row px-1">
             <h2>
-                <span>Shelly Foxworth-HillL</span>
+                <span>Shelly Foxworth-Hill</span>
             </h2>
             <nav>
                 <ul className="flex-row">
