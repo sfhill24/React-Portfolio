@@ -37,12 +37,12 @@ function Portfolio() {
             live: " https://notetaker-sfh.herokuapp.com/"
         },
         {
-            name: "Run Buddy",
-            decription: "A website that offers fitness training.",
-            languages: "HTML/CSS",
-            image: "RunBuddy.png",
-            gitHubLink: "https://github.com/sfhill24/run-buddy",
-            live: " https://lernantino.github.io/run-buddy/"
+            name: "Monied",
+            decription: "A website that offers crowdfunding for non-profits.",
+            languages: "MERN",
+            image: "Monied.png",
+            gitHubLink: "https://github.com/kristacannady/Monied.git",
+            live: " https://aqueous-scrubland-12058.herokuapp.com/"
         }
     ])
 
