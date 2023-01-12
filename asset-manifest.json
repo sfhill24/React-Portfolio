@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.48b768bd.css",
-    "main.js": "/React-Portfolio/static/js/main.b29d71d8.js",
+    "main.js": "/React-Portfolio/static/js/main.ce8e3477.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/UltimateSportsTer.png": "/React-Portfolio/static/media/UltimateSportsTer.9b6be24ed440586d02f8.png",
     "static/media/Flashaholic.png": "/React-Portfolio/static/media/Flashaholic.0b417a5c8d66ec35156e.png",
     "static/media/UltimateSportsTracker.png": "/React-Portfolio/static/media/UltimateSportsTracker.72ae68732c5e975b1b93.png",
     "static/media/PhotoOfMe.png": "/React-Portfolio/static/media/PhotoOfMe.a225f69925a36789ad14.png",
     "static/media/RunBuddy.png": "/React-Portfolio/static/media/RunBuddy.32930031b65c146ac6c5.png",
+    "static/media/Monied.png": "/React-Portfolio/static/media/Monied.8e2169abfba791a2295b.png",
     "static/media/WorkDayScheduler.png": "/React-Portfolio/static/media/WorkDayScheduler.1ead3856293d04e3f107.png",
     "static/media/NoteTaker.png": "/React-Portfolio/static/media/NoteTaker.38ef8d2d2bf6fe39b49c.png",
     "static/media/Sample-Resume.pdf": "/React-Portfolio/static/media/Sample-Resume.3ca6339f9472c03cc726.pdf",
     "index.html": "/React-Portfolio/index.html",
     "main.48b768bd.css.map": "/React-Portfolio/static/css/main.48b768bd.css.map",
-    "main.b29d71d8.js.map": "/React-Portfolio/static/js/main.b29d71d8.js.map",
+    "main.ce8e3477.js.map": "/React-Portfolio/static/js/main.ce8e3477.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48b768bd.css",
-    "static/js/main.b29d71d8.js"
+    "static/js/main.ce8e3477.js"
   ]
 }
